@@ -23,7 +23,7 @@
     border-radius: 20px;
 }
 
-/* The Close Button */
+
 .close {
     color: rgb(0, 0, 0);
     float: right;
@@ -37,6 +37,6 @@
     cursor: pointer;
 }
 .img-show{
-    width: 100px ;
-    margin-left: 10px;
+    width: 250px ;
+    margin-left: 30px;
 }
