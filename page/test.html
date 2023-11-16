@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test JavaScript</title>
+    <link rel="stylesheet" href="/style/test.css">
 </head>
 
 <body>
     <p>แสดงรูปภาพของสมาชิกแบบ JavaScript</p>
-    <button id="show01">BTN SHOW</button>
+    <button id="myBtn">Open Modal</button>
 
-    <script>
-        function myFunction() {
-            let text;
-            let person = prompt("Please enter your name:", "Harry Potter");
-            if (person == null || person == "") {
-                text = "User cancelled the prompt.";
-            } else {
-                text = "Hello " + person + "! How are you today?";
-            }
-            document.getElementById("demo").innerHTML = text;
-        }
-    </script>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img class="img-show" src="/img/366752517_1517253959129158_8682572334195667776_n.png" alt="นางสาวนฤมล สีละมุด">
+            <img class="img-show" src="/img/387599915_657659393185693_522154510569664814_n.jpg" alt="นางสาวเดือนเพ็ญ โฉมฉาย">
+            <img class="img-show" src="/img/399825615_1101161494592200_3139820883733838369_n.jpg " alt="นายศุภกิตติ์ อินมา">
+        </div>
+    </div>
+
+    <script src="/javascript/pupup.js"></script>
 </body>
 
 </html>
