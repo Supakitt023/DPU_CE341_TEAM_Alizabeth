@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test JavaScript</title>
 </head>
+
 <body>
-    
+    <p>แสดงรูปภาพของสมาชิกแบบ JavaScript</p>
+    <button id="show01">BTN SHOW</button>
+
+    <script>
+        function myFunction() {
+            let text;
+            let person = prompt("Please enter your name:", "Harry Potter");
+            if (person == null || person == "") {
+                text = "User cancelled the prompt.";
+            } else {
+                text = "Hello " + person + "! How are you today?";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
 </body>
+
 </html>
