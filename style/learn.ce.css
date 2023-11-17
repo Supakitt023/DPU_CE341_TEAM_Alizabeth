@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Niramit:wght@200&display=swap');
+
+
+body {
+    background-color: rgb(161, 232, 232);
+    font-family : 'Mali';  
+    
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    color: rgb(3, 3, 45);
+}
+header{
+    padding-top: 50px;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 5rem;
+    color: #fc0404;
+}
+h2{
+    text-align: center;
+}
+.btn-backe{
+    width: 100px;
+    height: 50px;
+    margin-left: 750px;
+
+
+}
