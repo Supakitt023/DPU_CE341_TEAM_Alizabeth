@@ -23,3 +23,23 @@ window.onclick = function(event) {
     windows.style.display = "none";
   }
 }
+
+function getIPAddress() {
+  fetch('https://api.ipify.org?format=json')
+      .then(response => response.json())
+      .then(data => {
+          var any = 'IP ของคุณคือ : ' + data.ip;
+          alert(any)
+      })
+      .catch(error => console.error('Error fetching IP address:', error));
+}
+
+// Call the function when the page is loaded
+var modal = document.getElementById("popup-box2")
+var btn2 = document.getElementById("myBtnIp")
+
+
+btn2.onclick = function() {
+
+  getIPAddress();
+}
