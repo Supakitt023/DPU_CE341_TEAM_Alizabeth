@@ -1,2 +1,5 @@
 # DPU_CE341_TEAM_Alizabeth
-![353862198_1050068815965398_2552526054839565356_n](https://github.com/Supakitt023/DPU_CE341_TEAM_Alizabeth/assets/142969653/03de7154-2c0d-4845-93c4-c863cfac8909)
+Team : Alizabeth
+นายศุภกิตติ์  อินมา 65110866  {index.html,test.html} usename github : Supakitt023
+นางสาวนฤมล สีละมุด 65112125 {team.html} usename github : Naruemon55
+นางสาวเดือนเพ็ญ โฉมฉาย 65111987  {learn.html}  usename github : Duanpen05
